@@ -1,0 +1,166 @@
+body{
+    background-color: #f0f0f3;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.header{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.search{
+    display: flex;
+    margin-left: 190px;
+}
+
+.search button{
+    width: 100px;
+    height: 80px;
+    border: none;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(166, 166, 180, 0.4);
+    border-radius: 20px;
+
+}
+.magnifier{
+    object-fit: contain;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+.logo{
+    margin: 0;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(166, 166, 180, 0.4);
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    padding: 0;
+    border: none;
+}
+.header input{
+    height: 80px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(166, 166, 180, 0.4);
+    background-color: #f0f0f3;
+    color: #bebebe;
+    border: none;
+    font-size: 36px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.header input::placeholder{
+    color: #bebebe;
+}
+
+.header input:focus{
+    outline: none;
+}
+
+.cities{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 48px;
+    row-gap: 76px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.city{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(166, 166, 180, 0.4);
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.city img{
+    width: 121px;
+    margin: 0;
+}
+
+.city p{
+    font-size: 38px;
+    color: #747474;
+    margin: 0;
+    line-height: normal;
+}
+
+.info1{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 29px;
+}
+
+.info1 p{
+    line-height: normal;
+}
+
+.info2{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.info2 p{
+    line-height: normal;
+}
+
+.info3{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.info3 p{
+    line-height: normal;
+}
+
+span{
+    font-size: 60px;
+
+}
+
+.temperature{
+    height: 60px;
+}
+
+.wind{
+    display: flex;
+    align-items: center;
+}
+
+.wind img{
+    width: 35px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.wind p{
+    font-size: 25px;
+}
+
+.temperature{
+    line-height: 60px;
+}

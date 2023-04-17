@@ -1,0 +1,99 @@
+body{
+    background-color: #f0f0f3;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.header{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.search{
+    display: flex;
+    margin-left: 190px;
+}
+
+.search button{
+    width: 100px;
+    height: 80px;
+    border: none;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(166, 166, 180, 0.4);
+    border-radius: 20px;
+
+}
+.magnifier{
+    object-fit: contain;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+.logo{
+    margin: 0;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(166, 166, 180, 0.4);
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    padding: 0;
+    border: none;
+}
+.header input{
+    height: 80px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(166, 166, 180, 0.4);
+    background-color: #f0f0f3;
+    color: #bebebe;
+    border: none;
+    font-size: 36px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.header input::placeholder{
+    color: #bebebe;
+}
+
+.header input:focus{
+    outline: none;
+}
+
+.countries{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 48px;
+    row-gap: 76px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.country{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        width: 400px;
+        height: 100px;
+        box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(166, 166, 180, 0.4);
+        border-radius: 20px;
+}
+
+.country p{
+    margin: 0;
+    margin-left: 30px;
+    font-size: 38px;
+    color: #747474;
+}
+
+.country img{
+    margin: 0;
+    margin-right: 30px;
+    width: 80px;
+    height: 60px;
+}
